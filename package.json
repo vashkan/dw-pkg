@@ -1,0 +1,26 @@
+{
+  "name": "dw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/vashkan/dw-pkg.git"
+  },
+  "keywords": [
+    "dw",
+    "tests",
+    "charts"
+  ],
+  "author": "Ivan Shakhmatov",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "d3": "git://github.com/mbostock/d3.git",
+    "mocha": "^2.4.5",
+    "nvd3": "git://github.com/nvd3-community/nvd3.git"
+  }
+}
