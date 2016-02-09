@@ -1,14 +1,13 @@
 {
   "name": "dw",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Charts lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/vashkan/dw-pkg.git"
+    "type": "git",
+    "url": "https://github.com/vashkan/dw-pkg.git"
   },
   "keywords": [
     "dw",
@@ -16,10 +15,15 @@
     "charts"
   ],
   "author": "Ivan Shakhmatov",
-  "license": "Apache-2.0",
+  "license": "The MIT License",
   "devDependencies": {
     "chai": "^3.5.0",
     "d3": "git://github.com/mbostock/d3.git",
+    "grunt": "latest",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-mocha": "^0.4.15",
     "mocha": "^2.4.5",
     "nvd3": "git://github.com/nvd3-community/nvd3.git"
   }
